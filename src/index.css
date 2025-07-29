@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion-button::after {
+    filter: invert(1);
+}
